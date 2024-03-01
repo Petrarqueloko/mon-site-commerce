@@ -3,21 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Profile</title>
-  <!-- Bootstrap 5 CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Mon Site E-commerce</title>
+  <!-- Liens vers les fichiers CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Fichier CSS personnalisé -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<p style="background-color: fuchsia;"><span style="font-size: 50px;">FANOUDAN MARKET</span> 
-        <a href="index.html" style="margin-left: 300px;text-decoration: none">Acceuil</a>
-        <a href="produits.html"  style="margin-left: 10px;text-decoration: none;">Produits</a>
-        <a href="apropos.html"  style="margin-left: 10px;text-decoration: none;">A propos</a>
-        <a href="Compte.html" style="margin-left: 10px;">compte</a>
-        <a href="blog.html" style="margin-left: 10px;">blog</a>
-        <a href="contact.html"  style="margin-left: 10px;text-decoration: none;">Contact</a> </p>
+    <!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ff69b4;">
+  <!-- Logo -->
 
-        <P>
+  <a class="navbar-brand" href="accueil.html">
+    <strong class="text-black" style="text-align: center; font-family: algerian; font-size: 40px"> FANOUDAN MARKET </strong>
+   </a>
+  <!-- Bouton de basculement pour les petits écrans -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>-
+
+  <!-- Contenu de la barre de navigation -->
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="produits.html">Produits</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="apropos.html">À propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="Compte.html">Compte</a>
+      </li>
+    </ul>
+  </div>
+</nav>
             <H1 style="font-family: algerian;">MON COMPTE</H1>
         </P>
 <div class="container mt-4">
